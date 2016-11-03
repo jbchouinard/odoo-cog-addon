@@ -14,7 +14,7 @@ from . import (
     # pyfiles = glob('models/*.py')
     # for f in pyfiles:
     #     f = f[7:-3]
-    #     if not f.startswith('__'):
+    #     if not f.startswith('__') end not f.endswith('.cog'):
     #         cog.outl(f + ',')
     # ]]]
     # [[[end]]]
