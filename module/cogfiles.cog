@@ -1,0 +1,10 @@
+[[[cog
+import cog
+from glob import glob
+
+cogfiles = glob('./*.cog.*')
+cogfiles += glob('./*/*.cog.*')
+for f in cogfiles:
+    cog.outl('%s -d -o %s' % (f, f.replace('.cog', '')))
+]]]
+[[[end]]]
