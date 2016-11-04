@@ -14,7 +14,7 @@ from . import (
     # pyfiles = glob('tests/*.py')
     # for f in pyfiles:
     #     f = f[6:-3]
-    #     if f.startswith('test_') end not f.endswith('.cog'):
+    #     if f.startswith('test_') and not f.endswith('.cog'):
     #         cog.outl(f + ',')
     # ]]]
     # [[[end]]]
