@@ -26,7 +26,7 @@ This is a longer description of the module.
 
 It can span multiple lines.
 """
-ODOO_VERSION='9.0'
+ODOO_VERSION='10.0'
 
 
 CONTRIBUTORS=[
@@ -36,5 +36,5 @@ CONTRIBUTORS=[
 
 LICENSE="AGPL-3.0"
 
-LICENSE_HEADER="""# © 2016 Savoir-faire Linux
+LICENSE_HEADER="""# © 2017 Savoir-faire Linux
 # License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl)."""
