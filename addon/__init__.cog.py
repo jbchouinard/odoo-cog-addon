@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 # [[[cog
 # import cog
-# import cogutils
-# cog.outl(cogutils.LICENSE_HEADER)
+# import cogconstants
+# cog.outl(cogconstants.LICENSE_HEADER)
 # ]]]
 # [[[end]]]
 
