@@ -5,18 +5,15 @@
 # cog.outl(cogconstants.LICENSE_HEADER)
 # ]]]
 # [[[end]]]
-
-from . import (
-    # [[[cog
-    # import os
-    # from glob import glob
-    #
-    # pyfiles = glob('wizard/*.py')
-    # for f in pyfiles:
-    #     f = f[7:-3]
-    #     if (not f.startswith('__') and not f.endswith('.cog')
-    #           and not f.startswith('template')):
-    #         cog.outl(f + ',')
-    # ]]]
-    # [[[end]]]
-)
+# [[[cog
+# import os
+# from glob import glob
+# fns = [f.split('/')[1][:-3] for f in glob('wizard*/*.py')]
+# fns = [f for f in fns if not f.startswith('__') and not f.endswith('.cog')]
+# if fns:
+#     cog.outl('\nfrom . import (')
+#     for f in fns:
+#         cog.outl('    ' + f + ',')
+#     cog.outl(')')
+# ]]]
+# [[[end]]]

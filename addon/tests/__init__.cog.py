@@ -5,17 +5,15 @@
 # cog.outl(cogconstants.LICENSE_HEADER)
 # ]]]
 # [[[end]]]
-
-from . import (
-    # [[[cog
-    # import os
-    # from glob import glob
-    #
-    # pyfiles = glob('tests/*.py')
-    # for f in pyfiles:
-    #     f = f[6:-3]
-    #     if f.startswith('test_') and not f.endswith('.cog'):
-    #         cog.outl(f + ',')
-    # ]]]
-    # [[[end]]]
-)
+# [[[cog
+# import os
+# from glob import glob
+# fns = [f.split('/')[1][:-3] for f in glob('tests/*.py')]
+# fns = [f for f in fns if f.startswith('test_') and not f.endswith('.cog')]
+# if fns:
+#    cog.outl('\nfrom . import (')
+#    for f in fns:
+#        cog.outl('    ' + f + ',')
+#    cog.outl(')')
+# ]]]
+# [[[end]]]
