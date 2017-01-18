@@ -26,8 +26,8 @@ This is a longer description of the module.
 
 It can span multiple lines.
 """
-ODOO_VERSION='9.0'
 
+ODOO_VERSION='9.0'
 
 CONTRIBUTORS=[
     ('Jérome Boisvert-Chouinard',
