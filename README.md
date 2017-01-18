@@ -8,4 +8,4 @@ cogapp (pip install cogapp)
 
 ## Usage
 
-Edit cogutils.py. Generate code with cogmake.sh.
+Edit cogconstants.py. Generate code with cogmake.sh.
