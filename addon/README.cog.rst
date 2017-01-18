@@ -1,7 +1,11 @@
-====================
-[[[cog import cog; import cogconstants; cog.outl(cogconstants.TITLE) ]]]
+[[[cog
+import cog
+import cogconstants
+cog.outl("=" * len(cogconstants.TITLE))
+cog.outl(cogconstants.TITLE)
+cog.outl("=" * len(cogconstants.TITLE))
+]]]
 [[[end]]]
-====================
 [[[cog cog.outl(cogconstants.DESCRIPTION) ]]]
 [[[end]]]
 
