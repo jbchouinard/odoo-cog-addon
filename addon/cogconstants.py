@@ -34,7 +34,7 @@ CONTRIBUTORS=[
      'jerome.boisvertchouinard@savoirfairelinux.com'),
 ]
 
-LICENSE="AGPL-3.0"
+LICENSE="LGPL-3"
 
-LICENSE_HEADER="""# © 2016 Savoir-faire Linux
-# License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl)."""
+LICENSE_HEADER="""# © 2017 Savoir-faire Linux
+# License LGPL-3.0 or later (http://www.gnu.org/licenses/lgpl)."""
