@@ -14,6 +14,8 @@ Automatically generate Odoo addon boilerplate.
 
 ## Usage
 
+Copy the `addon` dir to the new location for you new module.
+
 Edit module constants in `cogconstants.py`.
 
 If you want, copy and modify the templates for models, wizards, tests, views.
@@ -25,7 +27,9 @@ will be reference.number).
 
 Generate code by running
 
-```./cogmake.sh```
+```
+./cogmake.sh
+```
 
 `README.rst`, `__manifest__.py` (or `__openerp__.py`), and `__init__.py` files
 will be automatically generated. Some parts of the manifest still need to be
@@ -33,7 +37,9 @@ written by hand.
 
 You can erase all the cog template files and utilities by running
 
-```./cogclean.sh```
+```
+./cogclean.sh
+```
 
 (to ship the code without the code generators).
 
