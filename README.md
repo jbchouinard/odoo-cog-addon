@@ -6,11 +6,11 @@ Automatically generate Odoo addon boilerplate.
 
 ### Binaries
 
-bash
+* `bash`
 
 ### Python Packages
 
-cogapp
+* `cogapp`
 
 ## Usage
 
@@ -18,8 +18,8 @@ Edit module constants in `cogconstants.py`.
 
 If you want, copy and modify the templates for models, wizards, tests, views.
 
-For example, if your module has a new model Reference Number, copy template.cog.py
-to reference_number.py. You can edit the MODEL_NAME variable; other model attributes
+For example, if your module has a new model Reference Number, copy `template.cog.py`
+to `reference_number.cog.py`. You can edit the MODEL_NAME variable; other model attributes
 will be set automatically (the class name will be ReferenceNumber, the model name
 will be reference.number).
 
