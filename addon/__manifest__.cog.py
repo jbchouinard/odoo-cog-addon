@@ -24,6 +24,20 @@
     'depends': [
     ],
     'data': [
+        'security/ir.model.access.csv',
+        # [[[cog
+        # import os
+        # from glob import glob
+        # views = [f.split('/')[1][:-3] for f in glob('views/*.xml')]
+        # fns = [f for f in views if not f.endswith('.cog')]
+        # for f in fns:
+        #     cog.outl("'views/" + f + "xml" + "',")
+        # wizviews = [f.split('/')[1][:-3] for f in glob('wizards/*.xml')]
+        # fns = [f for f in wizviews if not f.endswith('.cog')]
+        # for f in fns:
+        #     cog.outl("'wizards/" + f + "xml" + "',")
+        # ]]]
+        # [[[end]]]
     ],
     'installable': True,
     'application': False,
