@@ -4,9 +4,13 @@ Automatically generate Odoo addon boilerplate.
 
 ## Requirements
 
-```
-pip install cogapp
-```
+### Binaries
+
+bash
+
+### Python
+
+cogapp
 
 ## Usage
 
